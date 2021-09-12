@@ -1,4 +1,4 @@
-package com.reactnativegoogleonetap;
+package com.matejdr.googleonetap;
 
 import androidx.annotation.NonNull;
 

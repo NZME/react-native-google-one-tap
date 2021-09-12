@@ -53,7 +53,7 @@ yarn test
 
 To edit the Objective-C files, open `example/ios/GoogleOneTapExample.xcworkspace` in XCode and find the source files at `Pods > Development Pods > react-native-google-one-tap`.
 
-To edit the Kotlin files, open `example/android` in Android studio and find the source files at `reactnativegoogleonetap` under `Android`.
+To edit the Kotlin files, open `example/android` in Android studio and find the source files at `react-native-google-one-tap` under `Android`.
 
 ### Commit message convention
 

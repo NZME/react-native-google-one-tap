@@ -2,5 +2,5 @@ rootProject.name = 'GoogleOneTapExample'
 apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings)
 include ':app'
 
-include ':reactnativegoogleonetap'
-project(':reactnativegoogleonetap').projectDir = new File(rootProject.projectDir, '../../android')
+include ':react-native-google-one-tap'
+project(':react-native-google-one-tap').projectDir = new File(rootProject.projectDir, '../../android')

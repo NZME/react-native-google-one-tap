@@ -11,12 +11,10 @@
     "src",
     "lib",
     "android",
-    "ios",
     "cpp",
     "react-native-google-one-tap.podspec",
     "!lib/typescript/example",
     "!android/build",
-    "!ios/build",
     "!**/__tests__",
     "!**/__fixtures__",
     "!**/__mocks__"
@@ -36,13 +34,13 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/NZME/react-native-google-one-tap/react-native-google-one-tap",
-  "author": "Matej Drobnic <matej.dr@gmail.com> (https://github.com/NZME/react-native-google-one-tap)",
+  "repository": "https://github.com/NZME/react-native-google-one-tap",
+  "author": "Matej Drobnic <matej.dr@gmail.com> (https://github.com/matejdr)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/NZME/react-native-google-one-tap/react-native-google-one-tap/issues"
+    "url": "https://github.com/NZME/react-native-google-one-tap/issues"
   },
-  "homepage": "https://github.com/NZME/react-native-google-one-tap/react-native-google-one-tap#readme",
+  "homepage": "https://github.com/NZME/react-native-google-one-tap#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },

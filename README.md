@@ -1,6 +1,6 @@
 # react-native-google-one-tap
 
-Google one tap sign in for react native
+Google one tap sign in for react native. Works only on Android.
 
 ## Installation
 
@@ -11,11 +11,14 @@ npm install react-native-google-one-tap
 ## Usage
 
 ```js
-import GoogleOneTap from "react-native-google-one-tap";
+import { GoogleOneTap } from "react-native-google-one-tap";
 
 // ...
 
-const result = await GoogleOneTap.multiply(3, 7);
+GoogleOneTap.configure({
+  webClientId: '<your web client ID>',
+});
+const userInfo = await GoogleOneTap.signIn();
 ```
 
 ## Contributing
